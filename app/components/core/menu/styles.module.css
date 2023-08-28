@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+  @apply flex flex-col justify-center text-white font-bold text-base grow w-[50px];
+
+  & span {
+    display: block;
+    text-align: center;
+  }
+
+  &:hover {
+    background-color: mediumslateblue;
+    cursor: pointer;
+  }
+}

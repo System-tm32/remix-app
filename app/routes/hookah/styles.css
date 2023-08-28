@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .content {
+    @apply bg-slate-500;
+  }
+
+  .menu-wrapper {
+    @apply bg-slate-900;
+  }
+}
