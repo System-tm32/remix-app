@@ -8,8 +8,8 @@ const getVerticalString = (str: string): React.ReactNode => {
 
 const menu = [
   { id: 0, title: "random", link: "" },
-  { id: 1, title: "compilation", link: "" },
-  { id: 2, title: "custom", link: "" },
+  { id: 1, title: "custom", link: "" },
+  { id: 2, title: "mastermix", link: "" },
 ];
 
 const MainMenu = () => {
