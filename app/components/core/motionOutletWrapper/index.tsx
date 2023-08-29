@@ -12,8 +12,8 @@ const MotionOutletWrapper = ({
         className="relativ h-full w-full bg-cyan-600 flex flex-row"
         key={useLocation().pathname}
         initial={{ x: "50%", opacity: 0 }}
-        animate={{ x: "0", opacity: 1, transition: { delay: 0.5 } }}
-        exit={{ x: "50%", opacity: 0 }}
+        animate={{ x: "0", opacity: 1, transition: { delay: 0.1 } }}
+        exit={{ x: "50%", opacity: 0, transition: { delay: 0.1 } }}
         {...rest}
       >
         {children}

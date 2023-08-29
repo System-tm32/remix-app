@@ -1,0 +1,76 @@
+{
+  "mix": [
+    {
+      "id": "0",
+      "name": "Pretty Mix #000",
+      "tobacco": [
+        {
+          "id": "0",
+          "title": "Must Have",
+          "taste": "pinkman",
+          "percentage": "50"
+        },
+        {
+          "id": "1",
+          "title": "Must Have",
+          "taste": "pineapple",
+          "percentage": "50"
+        }
+      ],
+      "bowl": "UPG",
+      "strength": "5",
+      "categories": ["sweet", "sour"],
+      "description": "some mix"
+    },
+    {
+      "id": "1",
+      "name": "Pretty Mix #111",
+      "tobacco": [
+        {
+          "id": "0",
+          "title": "Blackburn",
+          "taste": "pinkman",
+          "percentage": "10"
+        },
+        {
+          "id": "1",
+          "title": "Blackburn",
+          "taste": "pineapple",
+          "percentage": "80"
+        }
+      ],
+      "bowl": "Phunnel",
+      "strength": "3",
+      "categories": ["sweet", "sour"],
+      "description": "some mix 2"
+    },
+    {
+      "id": "2",
+      "name": "Апельсин с Мятой / Dark Line Northern Berries / Cane mint",
+      "tobacco": [
+        {
+          "id": "0",
+          "title": "Dark Line Northern Berries",
+          "taste": "pinkman",
+          "percentage": "10"
+        },
+        {
+          "id": "1",
+          "title": "Апельсин С Мятой",
+          "taste": "",
+          "percentage": "80"
+        },
+        {
+          "id": "2",
+          "title": "Cane",
+          "taste": "Mint",
+          "percentage": "80"
+        }
+      ],
+      "bowl": "UPG",
+      "strength": "7",
+      "categories": ["sweet", "sour"],
+      "description": "some mix 2"
+    }
+  ]
+}
