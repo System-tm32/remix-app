@@ -20,17 +20,18 @@ export default function Index() {
 
   return (
     <>
-      <main className="relative h-full bg-slate-200 flex flex-col w-full text-white overflow-hidden">
+      <main className="relative h-screen bg-[#150F18] flex flex-col w-full text-white overflow-hidden p-10">
         {isRoot &&
           items
-            .slice(1)
-            .map(({ title, description, color, id, to }) => (
+            .slice(0)
+            .map(({ title, description, color, id, to, icon }) => (
               <FullMenuItem
                 key={id}
                 title={title}
                 description={description}
                 className={color}
                 to={to}
+                icon={icon}
               />
             ))}
 
@@ -44,6 +45,9 @@ export default function Index() {
           </section>
         )}
       </main>
+      <footer className="h-[50px] bg-[#0B060D] text-[gray] p-5">
+        © 2023 Калькулятор кальяных миксов
+      </footer>
     </>
   );
 }

@@ -1,39 +1,28 @@
 {
   "items": [
     {
-      "id": "fullmenu-mastermix-item-4",
-      "title": "Home",
-      "color": "bg-cyan-500",
-      "description": "go Home",
-      "to": "/home"
-    },
-    {
-      "id": "fullmenu-library-item-0",
-      "title": "Base",
-      "description": "Mix database",
-      "color": "bg-cyan-300",
-      "to": "/mix/0"
-    },
-    {
       "id": "fullmenu-random-item-0",
       "title": "Random",
-      "description": "mix with a little personalization of your tastes",
+      "description": "Тебе выпадет любой микс. Нужно выбрать лишь крепость и что ты точно не хочешь курить",
       "color": "bg-cyan-600",
-      "to": "random"
+      "to": "random",
+      "icon": "casino"
     },
     {
       "id": "fullmenu-custom-item-1",
       "title": "Custom",
-      "description": "expanded mix selection",
+      "description": "Супер микс на основе твоих желаний",
       "color": "bg-cyan-700",
-      "to": "custom"
+      "to": "custom",
+      "icon": "puzzle"
     },
     {
       "id": "fullmenu-mastermix-item-2",
       "title": "MasterMix",
-      "description": "multi-functional mix maker for guru",
+      "description": "Настало время показать друзьям, кто лучше шарит за вкусный кальян",
       "color": "bg-cyan-800",
-      "to": "mastermix"
+      "to": "mastermix",
+      "icon": "shisha"
     }
   ]
 }
